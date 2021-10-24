@@ -3,6 +3,7 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+
 import datetime
 from random import randint
 import calendar
@@ -21,6 +22,7 @@ def feature3():
     yy = 2000
     mm = 6
     print(calendar.month(yy, mm))
+
 
 
 
@@ -89,6 +91,8 @@ if __name__ == '__main__':
     #my_function()
     #second_function()
     #third_function()
+    #coinFlip()
+    #twoD()
     #coinFlip()
     #twoD()
     feature1()
