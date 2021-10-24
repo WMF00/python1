@@ -16,6 +16,7 @@ def feature2():
     for i in range(10):
         print(randint(1, 25))
 
+
 def feature3():
     yy = 2000
     mm = 6
@@ -23,35 +24,35 @@ def feature3():
 
 
 
-def twoD():
-    array = [['.', '.', '.', '.', '.', '.'],
-        ['|', '-', '-', '-', '-', '|'],
-        ['|', '|', '-', '-', '|', '|'],
-        ['|', '|', '|', '|', '|', '|'],
-        ['|', '|', '-', '-', '|', '|'],
-        ['|', '-', '-', '-', '-', '|'],
-        ['.', '.', '.', '.', '.', '.'],
-        ['.', '.', '.', '.', '.', '.'],
-        ['.', '.', '.', '.', '.', '.']]
-    print("array")
-    for i in array:
-        for j in i:
-            print(j, end=" ")
-        print()
+#def twoD():
+    #array = [['.', '.', '.', '.', '.', '.'],
+       # ['|', '-', '-', '-', '-', '|'],
+        #['|', '|', '-', '-', '|', '|'],
+       # ['|', '|', '|', '|', '|', '|'],
+       # ['|', '|', '-', '-', '|', '|'],
+      #  ['|', '-', '-', '-', '-', '|'],
+       # ['.', '.', '.', '.', '.', '.'],
+       # ['.', '.', '.', '.', '.', '.'],
+       # ['.', '.', '.', '.', '.', '.']]
+    #print("array")
+    #for i in array:
+        #for j in i:
+            #print(j, end=" ")
+        #print()
 
 
-import random
-def coinFlip():
-    number = int(input("Heads'(0)' Tails'(1)':"))
-    flip = random.randint(0, 1)
-    if flip == 0:
-        print("Heads")
-    else:
-        print("Tails")
-    if number == flip:
-        print("You Win!")
-    else:
-        print("You Lost")
+#import random
+#def coinFlip():
+    #number = int(input("Heads'(0)' Tails'(1)':"))
+    #flip = random.randint(0, 1)
+    #if flip == 0:
+        #print("Heads")
+    #else:
+        #print("Tails")
+    #if number == flip:
+        #print("You Win!")
+    #else:
+        #print("You Lost")
 
 
 #def my_function():
