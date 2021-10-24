@@ -89,8 +89,12 @@ if __name__ == '__main__':
     #my_function()
     #second_function()
     #third_function()
-    coinFlip()
-    twoD()
+    #coinFlip()
+    #twoD()
+    feature1()
+    feature2()
+    feature3()
+
 
 
 
