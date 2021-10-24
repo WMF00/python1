@@ -3,7 +3,24 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+import datetime
+from random import randint
+import calendar
 
+def feature1():
+    x = datetime.datetime.now()
+    print(x)
+
+
+def feature2():
+    for i in range(10):
+        print(randint(1, 25))
+
+
+def feature3():
+    yy = 2000
+    mm = 6
+    print(calendar.month(yy, mm))
 
 
 
@@ -72,9 +89,11 @@ if __name__ == '__main__':
     #my_function()
     #second_function()
     #third_function()
-    coinFlip()
-    twoD()
-
+    #coinFlip()
+    #twoD()
+    feature1()
+    feature2()
+    feature3()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
